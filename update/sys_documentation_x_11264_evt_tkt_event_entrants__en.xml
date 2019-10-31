@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Event Entrants" language="en" table="x_11264_evt_tkt_event_entrants">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Event Entrants</label>
+            <language>en</language>
+            <name>x_11264_evt_tkt_event_entrants</name>
+            <plural>Event Entrants</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-25 19:15:41</sys_created_on>
+            <sys_id>c63e119c1b340010fbc4dd3cdc4bcb85</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Event Entrants</sys_name>
+            <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+            <sys_update_name>sys_documentation_x_11264_evt_tkt_event_entrants__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-28 18:19:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

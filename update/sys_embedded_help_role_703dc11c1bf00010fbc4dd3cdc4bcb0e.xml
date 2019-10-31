@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_11264_evt_tkt.admin" name="x_11264_evt_tkt.admin">703dc11c1bf00010fbc4dd3cdc4bcb0a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:01:19</sys_created_on>
+        <sys_id>703dc11c1bf00010fbc4dd3cdc4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>703dc11c1bf00010fbc4dd3cdc4bcb0a</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_embedded_help_role_703dc11c1bf00010fbc4dd3cdc4bcb0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:01:19</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Event" max_length="40" name="x_11264_evt_tkt_event" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Location" mandatory="true" max_length="40" name="location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Stifel Theatre" sequence="0" value="stifel"/>
+                <element inactive_on_update="false" label="Fox Theater" sequence="1" value="fox"/>
+                <element inactive_on_update="false" label="Enterprise Center" sequence="2" value="enterprise"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Number of winners" max_length="40" name="number_of_winners" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="When" max_length="40" name="when" type="glide_date_time"/>
+    </element>
+</database>

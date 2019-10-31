@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>Enter Event</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 19:09:16</sys_created_on>
+        <sys_id>14bc551c1b340010fbc4dd3cdc4bcb0a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Enter Event</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_14bc551c1b340010fbc4dd3cdc4bcb0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 19:10:24</sys_updated_on>
+        <table>x_11264_evt_tkt_event_entrant</table>
+        <template>event={{Event}}^entrant={{User}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=14bc551c1b340010fbc4dd3cdc4bcb0a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</application>
+        <file_path/>
+        <instance_id>2298daffdb3efb440b9d21c405961924</instance_id>
+        <instance_name>dev89689</instance_name>
+        <name>sys_sg_write_back_action_item_14bc551c1b340010fbc4dd3cdc4bcb0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>Enter Event</name><query_condition/><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-25 19:09:16</sys_created_on><sys_id>14bc551c1b340010fbc4dd3cdc4bcb0a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Enter Event</sys_name><sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package><sys_policy/><sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope><sys_update_name>sys_sg_write_back_action_item_14bc551c1b340010fbc4dd3cdc4bcb0a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-25 19:10:24</sys_updated_on><table>x_11264_evt_tkt_event_entrant</table><template>event={{Event}}^entrant={{User}}^EQ</template><type>update</type><use_current_record_as_condition>false</use_current_record_as_condition></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=14bc551c1b340010fbc4dd3cdc4bcb0a"/></record_update>]]></payload>
+        <payload_hash>1257094661</payload_hash>
+        <record_name>Enter Event</record_name>
+        <reverted_from/>
+        <source>e92d0d1c1bf00010fbc4dd3cdc4bcb5d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 19:10:24</sys_created_on>
+        <sys_id>380d951c1b340010fbc4dd3cdc4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e0453b2ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 19:10:24</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>b00d951c313400101d0e53f37382e968</update_guid>
+        <update_guid_history>b00d951c313400101d0e53f37382e968:1257094661,18cc911ce3340010c520def9911a4d8f:1096565864</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 19:14:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>7ae6bb5d93584f80ad08cecfe1c09439</sys_id>
+        <sys_metadata>14bc551c1b340010fbc4dd3cdc4bcb0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enter Event</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_scope_delete display_value="">505d451ae8ae4bb8960c3c8b5a826764</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_14bc551c1b340010fbc4dd3cdc4bcb0a</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_14bc551c1b340010fbc4dd3cdc4bcb0a">380d951c1b340010fbc4dd3cdc4bcb68</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 19:14:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

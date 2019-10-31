@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_11264_evt_tkt_m2m_users_events</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:14:23</sys_created_on>
+        <sys_id>403051101b340010fbc4dd3cdc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_11264_evt_tkt_m2m_users_events</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>ua_table_licensing_config_403051101b340010fbc4dd3cdc4bcbe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:14:23</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</application>
+        <file_path/>
+        <instance_id>2298daffdb3efb440b9d21c405961924</instance_id>
+        <instance_name>dev89689</instance_name>
+        <name>ua_table_licensing_config_403051101b340010fbc4dd3cdc4bcbe6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_11264_evt_tkt_m2m_users_events</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-25 18:14:23</sys_created_on><sys_id>403051101b340010fbc4dd3cdc4bcbe6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_11264_evt_tkt_m2m_users_events</sys_name><sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package><sys_policy/><sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope><sys_update_name>ua_table_licensing_config_403051101b340010fbc4dd3cdc4bcbe6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-25 18:14:23</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-714128622</payload_hash>
+        <record_name>x_11264_evt_tkt_m2m_users_events</record_name>
+        <reverted_from/>
+        <source>e92d0d1c1bf00010fbc4dd3cdc4bcb5d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:14:23</sys_created_on>
+        <sys_id>4c3051101b340010fbc4dd3cdc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e0420691a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:14:23</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>84305110ba340010190b782f59c9b4e7</update_guid>
+        <update_guid_history>84305110ba340010190b782f59c9b4e7:-714128622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:58:34</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>3146ff6ea8214066859024edcf39cea9</sys_id>
+        <sys_metadata>403051101b340010fbc4dd3cdc4bcbe6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_11264_evt_tkt_m2m_users_events</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_scope_delete display_value="">505d451ae8ae4bb8960c3c8b5a826764</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_403051101b340010fbc4dd3cdc4bcbe6</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_403051101b340010fbc4dd3cdc4bcbe6">4c3051101b340010fbc4dd3cdc4bcbe7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:58:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

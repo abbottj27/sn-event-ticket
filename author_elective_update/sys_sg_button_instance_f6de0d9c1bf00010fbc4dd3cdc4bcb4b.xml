@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Launcher Button">bade0d9c1bf00010fbc4dd3cdc4bcb48</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon display_value="User Icon">7ade099c1bf00010fbc4dd3cdc4bcbdf</icon>
+        <label>Event Ticket Launcher Button Instance</label>
+        <location>top</location>
+        <name>Event Ticket Launcher Button Instance</name>
+        <order/>
+        <parent>c57e819c1bf00010fbc4dd3cdc4bcb2e</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:08:33</sys_created_on>
+        <sys_id>f6de0d9c1bf00010fbc4dd3cdc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Ticket Launcher Button Instance</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_sg_button_instance_f6de0d9c1bf00010fbc4dd3cdc4bcb4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:08:33</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=f6de0d9c1bf00010fbc4dd3cdc4bcb4b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</application>
+        <file_path/>
+        <instance_id>2298daffdb3efb440b9d21c405961924</instance_id>
+        <instance_name>dev89689</instance_name>
+        <name>sys_sg_button_instance_f6de0d9c1bf00010fbc4dd3cdc4bcb4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Launcher Button">bade0d9c1bf00010fbc4dd3cdc4bcb48</button><color_theme>primary</color_theme><description/><field_name/><icon display_value="User Icon">7ade099c1bf00010fbc4dd3cdc4bcbdf</icon><label>Event Ticket Launcher Button Instance</label><location>top</location><name>Event Ticket Launcher Button Instance</name><order/><parent>c57e819c1bf00010fbc4dd3cdc4bcb2e</parent><parent_table>sys_sg_applet_launcher</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-25 18:08:33</sys_created_on><sys_id>f6de0d9c1bf00010fbc4dd3cdc4bcb4b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Event Ticket Launcher Button Instance</sys_name><sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package><sys_policy/><sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope><sys_update_name>sys_sg_button_instance_f6de0d9c1bf00010fbc4dd3cdc4bcb4b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-25 18:08:33</sys_updated_on><table/></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=f6de0d9c1bf00010fbc4dd3cdc4bcb4b"/></record_update>]]></payload>
+        <payload_hash>-1802068787</payload_hash>
+        <record_name>Event Ticket Launcher Button Instance</record_name>
+        <reverted_from/>
+        <source>e92d0d1c1bf00010fbc4dd3cdc4bcb5d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:08:33</sys_created_on>
+        <sys_id>7ede0d9c1bf00010fbc4dd3cdc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e041b14a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:08:33</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>b6de0d9caef00010a33191ff3919b64d</update_guid>
+        <update_guid_history>b6de0d9caef00010a33191ff3919b64d:-1802068787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:09:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>1ae09761943c418c8671b74e3c7f47e9</sys_id>
+        <sys_metadata>f6de0d9c1bf00010fbc4dd3cdc4bcb4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Ticket Launcher Button Instance</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_scope_delete display_value="">505d451ae8ae4bb8960c3c8b5a826764</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_f6de0d9c1bf00010fbc4dd3cdc4bcb4b</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_f6de0d9c1bf00010fbc4dd3cdc4bcb4b">7ede0d9c1bf00010fbc4dd3cdc4bcb4d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:09:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

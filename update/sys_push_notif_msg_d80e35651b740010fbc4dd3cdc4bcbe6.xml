@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>YOU WON ${event} tickets!!! Check your email for more details.</message_string>
+        <name>Event winner</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <push_message_content display_value="EventWinner">db2f31e51b740010fbc4dd3cdc4bcb39</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-29 18:46:57</sys_created_on>
+        <sys_id>d80e35651b740010fbc4dd3cdc4bcbe6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Event winner</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_push_notif_msg_d80e35651b740010fbc4dd3cdc4bcbe6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-31 13:22:53</sys_updated_on>
+        <table>x_11264_evt_tkt_event_entrants</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

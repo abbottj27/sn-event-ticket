@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_11264_evt_tkt.EventTicketUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EventTicketUtil</name>
+        <script><![CDATA[var EventTicketUtil = Class.create();
+EventTicketUtil.prototype = {
+    initialize: function() {},
+
+    canEnter: function(e, u) {
+        var gr = new GlideRecord('x_11264_evt_tkt_event_entrants');
+        gr.addQuery('user', u);
+        gr.addQuery('event', e);
+        gr.query();
+        if (gr.hasNext()) {
+            return false;
+        } else {
+            return true;
+        }
+    },
+
+    chooseWinners: function(e, n) {
+		// First check and see how many people entered the drawing
+        var gr = new GlideRecord('x_11264_evt_tkt_event_entrants');
+        gr.addQuery('event', e);
+        gr.addNotNullQuery('user');
+        gr.query();
+        var population = gr.getRowCount();
+        if (population <= n) {
+            // Update all if there werent enough entrants to do a random drawing
+            var ua = new GlideRecord('x_11264_evt_tkt_event_entrants');
+            ua.addQuery('event', e);
+            ua.query();
+            ua.setValue('winner', true);
+            ua.updateMultiple();
+        } else {
+			// Going random
+            var offsets = [],
+                records = [];
+            while (records.length < n) {
+                var offset = Math.floor(Math.random() * population);
+                if (offsets.indexOf(offset) >= 0) {
+                    continue;
+                }
+                offsets.push(offset);
+                if (offsets.length >= population) {
+                    break;
+                }
+                gr.chooseWindow(offset, offset + 1);
+                gr.query();
+                if (gr.next()) {
+                    var value = gr.getUniqueValue();
+                    if (records.indexOf(value) < 0) {
+                        records.push(value);
+                    }
+                }
+            }
+            // Loop through the randomized records and set them as winners
+            records.forEach(function(sysId) {
+                var er = new GlideRecord('x_11264_evt_tkt_event_entrants');
+                if (er.get(sysId)) {
+                    er.setValue('winner', true);
+                    er.update();
+                }
+            });
+        }
+
+    },
+
+    type: 'EventTicketUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-28 12:32:01</sys_created_on>
+        <sys_id>ca3ed7051b300010fbc4dd3cdc4bcb75</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>EventTicketUtil</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_script_include_ca3ed7051b300010fbc4dd3cdc4bcb75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-29 15:51:28</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Leave Event Drawing">defe28d91b340010fbc4dd3cdc4bcb37</button>
+        <item_parameter display_value="User">ba9eecd91b340010fbc4dd3cdc4bcb31</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-28 18:25:45</sys_created_on>
+        <sys_id>228f24d91b340010fbc4dd3cdc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ba9eecd91b340010fbc4dd3cdc4bcb31</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_228f24d91b340010fbc4dd3cdc4bcbee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-28 18:25:45</sys_updated_on>
+        <ui_parameter display_value="User">486fe81d1b340010fbc4dd3cdc4bcb79</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

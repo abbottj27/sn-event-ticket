@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Enter Event">3f9159501b340010fbc4dd3cdc4bcbbc</button>
+        <item_parameter display_value="Event">c76e159c1b340010fbc4dd3cdc4bcbe0</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 19:17:37</sys_created_on>
+        <sys_id>89ae599c1b340010fbc4dd3cdc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c76e159c1b340010fbc4dd3cdc4bcbe0</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_89ae599c1b340010fbc4dd3cdc4bcb08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 19:17:37</sys_updated_on>
+        <ui_parameter display_value="Event">9603d1501b340010fbc4dd3cdc4bcb50</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

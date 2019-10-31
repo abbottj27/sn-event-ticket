@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-28 18:42:36</sys_created_on>
+        <sys_id>5e2378dd1b340010fbc4dd3cdc4bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_11264_evt_tkt.admin</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_ui_action display_value="Choose Winners">3d2338111b740010fbc4dd3cdc4bcba5</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_5e2378dd1b340010fbc4dd3cdc4bcbc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-28 18:42:36</sys_updated_on>
+        <sys_user_role display_value="x_11264_evt_tkt.admin" name="x_11264_evt_tkt.admin">703dc11c1bf00010fbc4dd3cdc4bcb0a</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

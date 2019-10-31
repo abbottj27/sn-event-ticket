@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Event Ticket Event">4d7e819c1bf00010fbc4dd3cdc4bcb31</data_item>
+        <interleaved_field/>
+        <name>Event Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:06:48</sys_created_on>
+        <sys_id>c17e819c1bf00010fbc4dd3cdc4bcb39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Event Item Stream</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_sg_item_stream_c17e819c1bf00010fbc4dd3cdc4bcb39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:09:12</sys_updated_on>
+        <table>x_11264_evt_tkt_event</table>
+    </sys_sg_item_stream>
+</record_update>

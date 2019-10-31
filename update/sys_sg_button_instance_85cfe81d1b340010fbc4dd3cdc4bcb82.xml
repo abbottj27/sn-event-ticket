@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Leave Event Drawing">defe28d91b340010fbc4dd3cdc4bcb37</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Leave Event</label>
+        <location>top</location>
+        <name>Leave Event</name>
+        <order>10</order>
+        <parent>057e819c1bf00010fbc4dd3cdc4bcb36</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-28 18:26:39</sys_created_on>
+        <sys_id>85cfe81d1b340010fbc4dd3cdc4bcb82</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Leave Event</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_sg_button_instance_85cfe81d1b340010fbc4dd3cdc4bcb82</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-28 19:32:24</sys_updated_on>
+        <table>x_11264_evt_tkt_event</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=85cfe81d1b340010fbc4dd3cdc4bcb82"/>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Delete Swipe (Event)">857e819c1bf00010fbc4dd3cdc4bcb3f</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (Event)</name>
+        <order/>
+        <parent>417e819c1bf00010fbc4dd3cdc4bcb3b</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:06:48</sys_created_on>
+        <sys_id>017e819c1bf00010fbc4dd3cdc4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Event)</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_update_name>sys_sg_button_instance_017e819c1bf00010fbc4dd3cdc4bcb42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:06:48</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=017e819c1bf00010fbc4dd3cdc4bcb42"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</application>
+        <file_path/>
+        <instance_id>2298daffdb3efb440b9d21c405961924</instance_id>
+        <instance_name>dev89689</instance_name>
+        <name>sys_sg_button_instance_017e819c1bf00010fbc4dd3cdc4bcb42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Delete Swipe (Event)">857e819c1bf00010fbc4dd3cdc4bcb3f</button><color_theme>primary</color_theme><description/><field_name/><icon/><label>Delete</label><location>leading_swipe</location><name>Delete (Event)</name><order/><parent>417e819c1bf00010fbc4dd3cdc4bcb3b</parent><parent_table>sys_sg_master_item</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-25 18:06:48</sys_created_on><sys_id>017e819c1bf00010fbc4dd3cdc4bcb42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete (Event)</sys_name><sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package><sys_policy/><sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope><sys_update_name>sys_sg_button_instance_017e819c1bf00010fbc4dd3cdc4bcb42</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-25 18:06:48</sys_updated_on><table/></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=017e819c1bf00010fbc4dd3cdc4bcb42"/></record_update>]]></payload>
+        <payload_hash>-611706671</payload_hash>
+        <record_name>Delete (Event)</record_name>
+        <reverted_from/>
+        <source>e92d0d1c1bf00010fbc4dd3cdc4bcb5d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 18:06:49</sys_created_on>
+        <sys_id>6d7e819c1bf00010fbc4dd3cdc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e04197e0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 18:06:49</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>e57e819ccdf0001058e74a0f9be4a3d3</update_guid>
+        <update_guid_history>e57e819ccdf0001058e74a0f9be4a3d3:-611706671</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-28 18:14:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>05659dd7bd194f8a8b14424677bf9901</sys_id>
+        <sys_metadata>017e819c1bf00010fbc4dd3cdc4bcb42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Event)</sys_name>
+        <sys_package display_value="Event Ticket" source="x_11264_evt_tkt">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Ticket">ad2d85181bb00010fbc4dd3cdc4bcb42</sys_scope>
+        <sys_scope_delete display_value="">505d451ae8ae4bb8960c3c8b5a826764</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_017e819c1bf00010fbc4dd3cdc4bcb42</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_017e819c1bf00010fbc4dd3cdc4bcb42">6d7e819c1bf00010fbc4dd3cdc4bcbd3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-28 18:14:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
